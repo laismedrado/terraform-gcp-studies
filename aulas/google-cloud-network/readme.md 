@@ -1,0 +1,68 @@
+https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_network
+https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_firewall.html
+
+
+Google Cloud Network é um serviço de rede fornecido pela 
+Google Cloud Platform (GCP). Ele permite que os usuários 
+criem e gerenciem redes virtuais na nuvem para conectar 
+seus recursos e serviços. Aqui estão alguns aspectos-chave do 
+Google Cloud Network:
+
+
+Virtual Private Cloud (VPC): VPC é o componente fundamental 
+de rede no Google Cloud. Ele fornece um ambiente virtual de 
+rede isolado para recursos como máquinas virtuais (VMs), contêineres 
+e outros serviços do Google Cloud. Os usuários podem definir intervalos 
+de IP, sub-redes e regras de firewall dentro de suas VPCs.
+
+Sub-redes: As sub-redes são divisões lógicas dentro de uma VPC 
+que permitem a segmentação da rede. Elas permitem isolar e 
+controlar o fluxo de tráfego dentro da sua VPC. Você pode 
+definir sub-redes com intervalos de endereços IP específicos 
+e atribuir recursos a elas.
+
+Regras de Firewall: O Google Cloud Network fornece regras de 
+firewall que permitem controlar o tráfego de entrada e saída 
+para e de seus recursos. Você pode definir regras com base em 
+endereços IP, protocolos e portas para aplicar políticas de segurança.
+
+Balanceamento de Carga: O Google Cloud Network oferece balanceamento 
+de carga para distribuir o tráfego de forma eficiente entre os 
+recursos da sua aplicação. Você pode usar o balanceamento de 
+carga para aumentar a disponibilidade e a escalabilidade dos 
+seus serviços.
+
+Existem três tipos principais de VPC (Virtual Private Cloud) no Google 
+Cloud Platform: VPC padrão (default VPC), modo automático (auto mode) 
+e modo personalizado (custom mode). Vou explicar cada um deles:
+
+VPC padrão (default VPC): A VPC padrão é criada automaticamente 
+para cada projeto no Google Cloud. Ela é projetada para facilitar 
+o uso imediato dos serviços de nuvem sem a necessidade de configuração 
+adicional. A VPC padrão possui uma única sub-rede em cada região 
+do projeto e possui um intervalo de endereços IP predefinido. 
+Embora a VPC padrão seja conveniente, ela não oferece a mesma 
+flexibilidade e controle que os modos automáticos ou personalizados.
+
+Modo automático (auto mode): No modo automático, você especifica 
+apenas o intervalo de endereços IP para a VPC e o Google Cloud cria 
+automaticamente as sub-redes dentro desse intervalo. As sub-redes são 
+criadas automaticamente em cada região disponível e são ajustadas 
+dinamicamente à medida que novas regiões são adicionadas ao projeto. 
+Esse modo é útil quando você deseja que o Google Cloud gerencie a 
+alocação de IP e a criação de sub-redes para você.
+
+Modo personalizado (custom mode): No modo personalizado, você tem controle 
+total sobre a criação e configuração de sub-redes dentro da VPC. 
+Você pode criar várias sub-redes em diferentes regiões do seu projeto, 
+especificando intervalos de endereços IP personalizados para cada 
+uma delas. Esse modo oferece maior flexibilidade e controle sobre a 
+topologia da rede, permitindo segmentar e isolar recursos específicos 
+em sub-redes separadas. No modo personalizado, você também pode usar 
+o compartilhamento de VPC para compartilhar uma VPC com outros projetos 
+dentro da mesma organização.
+
+Em resumo, a VPC padrão é criada automaticamente, o modo automático 
+simplifica a criação de sub-redes e o modo personalizado oferece maior 
+flexibilidade e controle sobre a criação e configuração de sub-redes 
+dentro da VPC.
