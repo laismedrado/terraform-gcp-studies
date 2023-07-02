@@ -10,5 +10,7 @@ terraform.tfstate.backup
 .terraform/terraform.tfstate
 **/*.tfstate
 *.auto.tfvars
+**/.terraform.lock.hcl
+
 
 
