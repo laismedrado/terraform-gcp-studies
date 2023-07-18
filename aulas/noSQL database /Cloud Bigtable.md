@@ -1,0 +1,4 @@
+https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/bigtable_instance
+
+Cloud Bigtable é um serviço de banco de dados NoSQL totalmente gerenciado fornecido pelo Google Cloud Platform (GCP). Ele é projetado para lidar com grandes quantidades de dados estruturados, com requisitos de baixa latência e alto rendimento. Com o Cloud Bigtable, você pode armazenar e recuperar dados usando um modelo de dados de chave-valor.
+Quando se fala em "Cloud Bigtable com Terraform no GCP", está se referindo à utilização do Terraform para automatizar a criação e configuração de um ambiente Cloud Bigtable no Google Cloud Platform. Isso permite que você defina e gerencie o provisionamento de instâncias do Cloud Bigtable, clusters, políticas de acesso e outros recursos associados usando código, em vez de configurá-los manualmente através da interface do usuário do GCP.
